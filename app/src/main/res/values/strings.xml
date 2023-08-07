@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Contacts</string>
+    <string name="contact_name">Name</string>
+    <string name="contact_phone">Phone Number</string>
+    <string name="contact_description">Description</string>
+    <string name="save">Save</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="name">Name</string>
+    <string name="description">Description</string>
+</resources>
