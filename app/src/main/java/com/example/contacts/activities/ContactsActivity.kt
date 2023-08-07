@@ -97,13 +97,13 @@ class ContactsActivity : AppCompatActivity() {
         if (name.trim().length < 3)
             return "Name can't be less than 3 characters"
 
-        if (!name.trim().onlyLetters())
+        if (!name.trim().isOnlyLetters())
             return "Name can only contain letters"
 
         return null
     }
 
-    private fun String.onlyLetters() = all { it.isLetter() }
+    private fun String.isOnlyLetters() = all { it.isLetter() }
     private fun validatePhone(phone: String): String? {
 
         if (phone.trim().isEmpty())
